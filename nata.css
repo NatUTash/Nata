@@ -2,7 +2,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-ul .sidebar-dark {
+ul nav .sidebar-dark {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ ul .sidebar-dark {
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
-ul .sidebar-light {
+ul nav .sidebar-light {
     list-style-type: none;
     margin: 0;
     padding: 0;
