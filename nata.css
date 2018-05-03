@@ -1,1 +1,13 @@
-
+ul .sidebar-dark {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: rgb(50, 54, 58);
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+li .sidebar-no-select {
+    display: block;
+}
