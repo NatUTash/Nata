@@ -32,6 +32,8 @@ li .sidebar-title-blue {
 li .sidebar-item {
     display: block;
     height: 50px;
+    text-decoration: none;
+    color: rgb(255,255,255);
 }
 li .sidebar-active-blue {
     background-color: rgb(51, 102, 204);
