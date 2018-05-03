@@ -22,12 +22,16 @@ ul .sidebar-light {
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
+li .sidebar-title {
+    text-transform: uppercase;
+}
 li .sidebar-title-blue {
     display: block;
     background-color: rgb(194, 209, 239);
 }
-li .sidebar-no-select {
+li .sidebar-item {
     display: block;
+    height: 50px;
 }
 li .sidebar-active-blue {
     background-color: rgb(51, 102, 204);
