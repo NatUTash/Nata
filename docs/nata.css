@@ -76,3 +76,8 @@ body {
     border-bottom: 3px;
     border-bottom-color: #FFFFFF;
 }
+.title-epic {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
