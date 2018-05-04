@@ -72,11 +72,36 @@ body {
     background-color: rgb(230, 230, 230);
 }
 .header-modified {
-    border-bottom: 1px solid #eaecef;
+    border-bottom: 1px solid;
 }
 .title-epic {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
     word-spacing: 6px;
+}
+.modal-background {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+    animation: myfirst 5s linear 2s infinite alternate;
+    display: none;
+}
+.gradient-blue {
+    background-color: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    color: #000000;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes modalback {
+    0%   {opacity: 0.0, display: block}
+    100% {opacity: 1.0}
+}
+
+/* Standard syntax */
+@keyframes modalback {
+    0%   {opacity: 0.0, display: block}
+    100% {opacity: 1.0}
 }
