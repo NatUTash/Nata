@@ -71,3 +71,8 @@ body {
 .sidebar-title-gray {
     background-color: rgb(230, 230, 230);
 }
+.header-modified {
+    
+    border-bottom: 3px;
+    border-bottom-color: #FFFFFF;
+}
