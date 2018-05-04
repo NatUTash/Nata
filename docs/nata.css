@@ -2,7 +2,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-ul nav.sidebar-dark {
+.sidebar-dark {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ ul nav.sidebar-dark {
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
-ul nav.sidebar-light {
+.sidebar-light {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,33 +22,33 @@ ul nav.sidebar-light {
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
-li a.sidebar-title {
+.sidebar-title {
     text-transform: uppercase;
 }
-li a.sidebar-title-blue {
+.sidebar-title-blue {
     display: block;
     background-color: rgb(194, 209, 239);
 }
-li a.sidebar-item {
+.sidebar-item {
     display: block;
     height: 50px;
     text-decoration: none;
     color: rgb(255,255,255);
 }
-li a.sidebar-active-blue {
+.sidebar-active-blue {
     background-color: rgb(51, 102, 204);
 }
 
-li a.sidebar-active-red {
+.sidebar-active-red {
     background-color: rgb(153, 51, 51);
 }
-li a.sidebar-title-red {
+.sidebar-title-red {
     background-color: rgb(223, 159, 159);
 }
 
-li a .sidebar-active-gray {
+.sidebar-active-gray {
     background-color: rgb(204, 204, 204);
 }
-li a .sidebar-title-gray {
+.sidebar-title-gray {
     background-color: rgb(230, 230, 230);
 }
