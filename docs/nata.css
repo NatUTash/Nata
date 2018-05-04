@@ -81,13 +81,40 @@ body {
     word-spacing: 6px;
 }
 .modal-background {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
     background-color: black;
     position: relative;
-    -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
-    animation: myfirst 5s linear 2s infinite alternate;
     display: none;
+}
+.modal-background-dark-theme {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    position: relative;
+    display: none;
+}
+.modal {
+    display: none;
+    width: 50%;
+    height: 50%;
+    background-color: #FFFFFF;
+    color: #000000;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+.modal-dark-theme {
+    display: none;
+    width: 50%;
+    height: 50%;
+    background-color: #000000;
+    color: #FFFFFF;
+    position: absolute;
+    left: 25%;
+    top: 25%;
 }
 .gradient-blue {
     background-color: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
