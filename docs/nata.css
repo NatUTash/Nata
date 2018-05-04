@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400');
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .sidebar-dark {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: 5%;
+    min-width: 50px;
     background-color: rgb(50, 54, 58);
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
@@ -16,7 +19,8 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: 5%;
+    min-width: 50px;
     background-color: rgb(166, 166, 166);
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
@@ -34,6 +38,8 @@ body {
     height: 50px;
     text-decoration: none;
     color: rgb(255,255,255);
+    text-align: center;
+    vertical-align: middle;
 }
 .sidebar-active-blue {
     background-color: rgb(51, 102, 204);
