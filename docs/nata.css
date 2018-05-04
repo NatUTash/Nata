@@ -60,6 +60,9 @@ body {
 .sidebar-title-red {
     background-color: rgb(223, 159, 159);
 }
+div {
+    margin-left:10%;padding:1px 16px;
+}
 
 .sidebar-active-gray {
     background-color: rgb(204, 204, 204);
