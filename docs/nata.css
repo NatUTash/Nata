@@ -72,9 +72,7 @@ body {
     background-color: rgb(230, 230, 230);
 }
 .header-modified {
-    
-    border-bottom: 3px;
-    border-bottom-color: #FFFFFF;
+    border-bottom: 1px solid #eaecef;
 }
 .title-epic {
     text-align: center;
