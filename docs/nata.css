@@ -60,7 +60,7 @@ body {
 .sidebar-title-red {
     background-color: rgb(223, 159, 159);
 }
-.content {
+.not-sidebar {
     margin-left: 10%;
     padding: 1px 16px;
 }
