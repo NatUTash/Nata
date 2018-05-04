@@ -4,6 +4,10 @@ body {
     margin: 0px;
     padding: 0px;
 }
+body.dark-theme {
+    background-color: #404040;
+    color: #FFFFFF;
+}
 .sidebar-dark {
     list-style-type: none;
     margin: 0;
