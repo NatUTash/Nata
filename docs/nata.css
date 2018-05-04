@@ -19,8 +19,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 5%;
-    min-width: 50px;
+    width: 50px;
     background-color: rgb(166, 166, 166);
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
