@@ -9,11 +9,11 @@ body {
     color: #FFFFFF;
 }
 .dark-theme {
-    background: linear-gradient(to bottom right, #000000 0%, #ffffff 250%);
+    background: linear-gradient(to bottom right, #000000 0%, #aaaaaa 100%);
     color: #FFFFFF;
 }
 .light-theme {
-    background: linear-gradient(to bottom right, #ffffff 0%, #000000 250%);
+    background: linear-gradient(to bottom right, #ffffff 0%, #666666 100%);
     color:  #000000;
 }
 .sidebar-dark-flat {
