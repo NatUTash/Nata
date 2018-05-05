@@ -4,9 +4,43 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.dark-theme {
+.dark-theme-flat {
     background-color: #404040;
     color: #FFFFFF;
+}
+.dark-theme {
+    background: linear-gradient(to bottom right, #000000 0%, #ffffff 250%);
+    color: #FFFFFF;
+}
+.light-theme {
+    background: linear-gradient(to bottom right, #ffffff 0%, #000000 250%);
+    color:  #000000;
+}
+.sidebar-dark-flat {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    background-color: rgb(50, 54, 58);
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    text-align: center;
+    vertical-align:middle;
+    text-transform: uppercase;
+}
+.sidebar-light-flat {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    background-color: rgb(166, 166, 166);
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    text-align: center;
+    vertical-align:middle;
+    text-transform: uppercase;
 }
 .sidebar-dark {
     list-style-type: none;
@@ -20,6 +54,7 @@ body {
     text-align: center;
     vertical-align:middle;
     text-transform: uppercase;
+    box-shadow: 5px 0px 10px black;
 }
 .sidebar-light {
     list-style-type: none;
@@ -33,13 +68,21 @@ body {
     text-align: center;
     vertical-align:middle;
     text-transform: uppercase;
+    box-shadow: 5px 0px 10px black;
 }
 .sidebar-title {
     text-transform: uppercase;
 }
-.sidebar-title-blue {
+.sidebar-title-blue-flat {
     display: block;
     background-color: rgb(194, 209, 239);
+}
+.sidebar-title-blue {
+    display: block;
+    background: linear-gradient(to top right, #0099ff 0%, #003399 100%);
+}
+.sidebar-active-blue {
+    background: linear-gradient(to top right, #0099cc 0%, #003366 100%);
 }
 .sidebar-item {
     display: block;
@@ -50,14 +93,14 @@ body {
     color: #FFFFFF;
     text-decoration: none;
 }
-.sidebar-active-blue {
+.sidebar-active-blue-flat {
     background-color: rgb(51, 102, 204);
 }
 
-.sidebar-active-red {
+.sidebar-active-red-flat {
     background-color: rgb(153, 51, 51);
 }
-.sidebar-title-red {
+.sidebar-title-red-flat {
     background-color: rgb(223, 159, 159);
 }
 .not-sidebar {
@@ -65,10 +108,10 @@ body {
     padding: 1px 16px;
 }
 
-.sidebar-active-gray {
+.sidebar-active-gray-flat {
     background-color: rgb(204, 204, 204);
 }
-.sidebar-title-gray {
+.sidebar-title-gray-flat {
     background-color: rgb(230, 230, 230);
 }
 .header-modified {
